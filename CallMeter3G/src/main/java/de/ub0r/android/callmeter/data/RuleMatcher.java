@@ -33,7 +33,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.os.RemoteException;
 import android.preference.PreferenceManager;
-import android.support.v4.app.NotificationCompat;
+import androidx.core.app.NotificationCompat;
 import android.telephony.PhoneNumberUtils;
 import android.text.TextUtils;
 import android.util.SparseArray;

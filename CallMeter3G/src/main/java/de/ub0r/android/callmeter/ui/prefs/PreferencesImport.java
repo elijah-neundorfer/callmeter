@@ -30,7 +30,7 @@ import android.os.Environment;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceGroup;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.Window;
 import android.widget.Toast;
 

@@ -22,7 +22,7 @@ repositories {
 }
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 30
 
     defaultConfig {
         minSdkVersion 14
@@ -84,13 +84,15 @@ android {
 }
 
 dependencies {
-    implementation 'com.android.support:support-v4:26.1.0'
-    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.gms:play-services-ads:15.0.1'
     implementation 'com.google.android.ads.consent:consent-library:1.0.1'
     implementation 'com.github.hackware1993:MagicIndicator:1.5.0'
     implementation 'de.ub0r.android.lib:lib:1.1.1'
     implementation 'de.ub0r.android.logg0r:logg0r:2.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
 }
 
 task updateChangelog << {

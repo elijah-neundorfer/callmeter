@@ -201,6 +201,10 @@
             android:theme="@style/Theme.CallMeter"
             android:windowSoftInputMode="adjustResize" />
         <activity
+            android:name=".ui.prefs.ClearCommEndUserPrivacyUI"
+            android:theme="@style/Theme.Default"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
             android:name=".ui.HelpActivity"
             android:label="@string/help_"
             android:theme="@style/Theme.CallMeter"

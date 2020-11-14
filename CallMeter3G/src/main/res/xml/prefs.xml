@@ -86,6 +86,14 @@
                     android:targetPackage="de.ub0r.android.callmeter"/>
         </PreferenceScreen>
         <PreferenceScreen
+            android:summary="Privacy Behavior"
+            android:title="Privacy Behavior of CallMeter">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="de.ub0r.android.callmeter.ui.prefs.ClearCommEndUserPrivacyUI"
+                android:targetPackage="de.ub0r.android.callmeter"/>
+        </PreferenceScreen>
+        <PreferenceScreen
                 android:summary="@string/faq_hint"
                 android:title="@string/faq_">
             <intent
