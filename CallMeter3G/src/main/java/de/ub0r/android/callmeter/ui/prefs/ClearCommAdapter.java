@@ -52,7 +52,7 @@ public class ClearCommAdapter extends RecyclerView.Adapter<ClearCommAdapter.Clea
         add(new DataAccessDescriptor(
                 Manifest.permission.READ_CONTACTS,
                 "Contact Names and Information",
-                "map phone numbers to contact names",
+                "resolve phone numbers to contacts and read MMS stats from phone's database",
                 false,
                 false,
                 "N/A",
@@ -71,8 +71,8 @@ public class ClearCommAdapter extends RecyclerView.Adapter<ClearCommAdapter.Clea
         ));
         add(new DataAccessDescriptor(
                 "android.permission.READ_PHONE",
-                "Phone?",
-                "read the phone? We don't really know what this is.",
+                "Traffic Stats",
+                "read traffic stats from phone's database",
                 false,
                 false,
                 "N/A",
@@ -82,7 +82,7 @@ public class ClearCommAdapter extends RecyclerView.Adapter<ClearCommAdapter.Clea
         add(new DataAccessDescriptor(
                 Manifest.permission.READ_SMS,
                 "SMS Message Contents",
-                "display various pieces of information regarding your SMS messages",
+                "read SMS stats from phone's database",
                 false,
                 false,
                 "N/A",
@@ -112,7 +112,7 @@ public class ClearCommAdapter extends RecyclerView.Adapter<ClearCommAdapter.Clea
         add(new DataAccessDescriptor(
                 Manifest.permission.WRITE_EXTERNAL_STORAGE,
                 "Edit Device Storage",
-                "save general app information to your device storage",
+                "save rule sets and backups to external storage",
                 false,
                 false,
                 "N/A",
@@ -122,7 +122,7 @@ public class ClearCommAdapter extends RecyclerView.Adapter<ClearCommAdapter.Clea
         add(new DataAccessDescriptor(
                 Manifest.permission.READ_EXTERNAL_STORAGE,
                 "Read Device Storage",
-                "read general app information from your device storage",
+                "load saved rule sets and backups from external storage",
                 false,
                 false,
                 "N/A",
@@ -142,7 +142,7 @@ public class ClearCommAdapter extends RecyclerView.Adapter<ClearCommAdapter.Clea
         add(new DataAccessDescriptor(
                 Manifest.permission.READ_CALL_LOG,
                 "Read Call Log",
-                "read information regarding your phone calls",
+                "read call stats from phone's database",
                 false,
                 false,
                 "N/A",
